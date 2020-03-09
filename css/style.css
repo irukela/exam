@@ -67,9 +67,8 @@ margin: 0;
     flex-direction: column;
     justify-content: center;
     height: 750px;
-    padding-top: 110px;
-    background: brown;
-   /* background-image: url("images/intro.png") center no-repeat;*/
+    padding-top: 100px;
+    background: blue url("images/intro.png") center no-repeat;
 }
 .intro__inner {
     width: 100%;
@@ -105,7 +104,7 @@ margin: 0;
     display: inline-block;
     vertical-align: top;
     padding: 14px 40px;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 0;
     cursor: pointer;
 
@@ -124,7 +123,7 @@ margin: 0;
 }
 .bttn--turquoise:hover {
     background-color: yellow;
-    color: brown;
+    color: blue;
 
 }
 /*End of Button*/
@@ -214,8 +213,76 @@ margin: 0;
     color: #fff;
     text-transform: uppercase;
 }
-.portfolio__text {
+
+/*End of Portfolio*/
+
+/*Download*/
+.download {
+    margin: 90px 0;
+
+    text-align: center;
+}
+.download__title {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+}
+.download__text {
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*End of Download*/
+/*Footer*/
+.footer {
+    background-color: blue;
+}
+
+.footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0;
+}
+.footer__block {
+    width: 50%;
+    text-align: center;
+}
+.footer__title {
+    margin-bottom: 10px;
     font-size: 14px;
     color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
 }
-/*End of Portfolio*/
+.footer__address {
+    sfont-size: 14px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, .5);
+}
+.footer__text {
+    sfont-size: 14px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, .5);
+}
+/*End of Footer*/
+
+/*Copyright*/
+.copyright {
+    padding: 20px 0;
+    background-color: black;
+}
+.copyright__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.copyright__text span {
+    color: blue;
+}
+/*End of Copyright*/
