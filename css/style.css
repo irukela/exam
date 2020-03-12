@@ -74,7 +74,7 @@ margin: 0;
     justify-content: center;
     height: 700px;
     padding-top: 100px;
-    background: /*darkblue*/ url("../images/intro.png") center no-repeat;
+    background: #4A3728 url("../images/intro.png") center no-repeat;
     background-size: cover;
 }
 .intro__inner {
