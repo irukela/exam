@@ -52,7 +52,10 @@ margin: 0;
     font-weight: 700;
     text-transform: uppercase;
 }
-.nav__link {
+.nav-ul{
+    display: flex;
+}
+.nav__li {
     margin-left: 50px;
     opacity: .55;
     transition: opacity .1s linear;
